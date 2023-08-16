@@ -8,9 +8,9 @@ public class Zadatak9 {
 
     public static void main(String[] args) {
         String nazivFajla = "profile-image.png ";
-        int velicinaOriginalnogFajla = 7;
-        int velicinaSkinutogDelaFajla = 2;
-        int procenat = 28;
+        double velicinaOriginalnogFajla = 7;
+        double velicinaSkinutogDelaFajla = 2;
+        int procenat = (int) (velicinaSkinutogDelaFajla / velicinaOriginalnogFajla * 100);
 
         System.out.println(nazivFajla + velicinaOriginalnogFajla + "Mb/" + velicinaSkinutogDelaFajla + "Mb");
         System.out.println("***************************");
